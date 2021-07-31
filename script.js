@@ -36,7 +36,7 @@
 //         }
 //     });
 // });
-const urlAPI = "http://www.omdbapi.com/?apikey=7e04b8ca&";
+const urlAPI = "https://www.omdbapi.com/?apikey=7e04b8ca&";
 const movieContainer = document.querySelector('.movie-container');
 const modalBody =  document.querySelector('.modal-body');
 const inputKeyword = document.querySelector('.inputKeyword');
