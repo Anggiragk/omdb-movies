@@ -32,3 +32,44 @@ body {
     min-height: 400px;
     max-height: 400px;
 }
+
+/* font title css */
+/* css from https://codepen.io/sdgaoqiang/pen/jOQjpaB */
+/* font-family : 'Roboto', sans-serif;
+font-family : 'Sixtyfour', sans-serif; */
+p,.title {
+    display: inline-block;
+    font-family: 'Sixtyfour', sans-serif;
+    text-align: center;
+    font-size: 8vmin;
+    margin-top: 10px;
+    /* line-height: 10vmin; */
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.title {
+    color: #ffeb3b;
+}
+
+.title:hover {
+    animation: title 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes title {
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+            0 0 40px #ffeb3b, 0 0 70px #ffeb3b, 0 0 80px #ffeb3b,
+            0 0 100px #ffeb3b, 0 0 150px #ffeb3b;
+    }
+    from {
+        filter: brightness(110%);
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+            0 0 20px #ffeb3b, 0 0 35px #ffeb3b, 0 0 40px #ffeb3b,
+            0 0 50px #ffeb3b, 0 0 75px #ffeb3b;
+    }
+}
